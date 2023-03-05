@@ -46,7 +46,7 @@ body{
 	
 }
 .tilebg1{
-	background-image: url("../basic-template/img/Yoga1.jpeg");
+	background-image: url("img/Yoga1.jpeg");
 	text-align: center;
 	height: 400px;
 	
@@ -60,7 +60,7 @@ body{
 	
 }
 .tilebg3{
-	background-image: url("../basic-template/img/Yoga2.jpeg");
+	background-image: url("img/Yoga2.jpeg");
 	text-align:right;
 	height: 400px;
 }
@@ -69,7 +69,7 @@ body{
 	height: 300px;
 }
 .tilebg5{
-	background-image: url("../basic-template/img/Yoga3.png");
+	background-image: url("img/Yoga3.png");
 	text-align:left;
 	height: 400px;
 	
