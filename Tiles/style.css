@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding:0;
+ 
+}
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+	font-size: 22px;
+}
+
+.navbar{
+	position: sticky;
+	position: -webkit-sticky; /*Safari*/
+	top:0;
+	width: 100%;
+	height: 75px;
+	background-color: #D31334;
+	z-index: 100;
+	justify-content: center;
+}
+.logo{
+	max-width: 150px;
+	
+}
+.logo_img{
+	width: 46%;
+	margin-top: 3px;
+	margin-left: 5px;
+
+}
+.tile{
+	backkground-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.tilebg1{
+	background-image: url("../basic-template/img/Yoga1.jpeg");
+	text-align: center;
+	height: 400px;
+	
+	
+}
+.tilebg2{
+	background-color: #D9D9D9;
+	text-align:center;
+	height: 300px;
+	
+	
+}
+.tilebg3{
+	background-image: url("../basic-template/img/Yoga2.jpeg");
+	text-align:right;
+	height: 400px;
+}
+.tilebg4{
+	background-color: white;
+	height: 300px;
+}
+.tilebg5{
+	background-image: url("../basic-template/img/Yoga3.png");
+	text-align:left;
+	height: 400px;
+	
+}
+
+.text1{
+	margin-top: 100px;
+	color: black;
+	
+}
+.text2{
+	margin-top: 100px;
+	color: #D31334;
+}
