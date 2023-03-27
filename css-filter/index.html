@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+	
+	<style>
+		 .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: mediumpurple;
+  
+   }
+	.my_filter{
+		max-height: 90%;
+		max-width: 90%;
+        contrast(110%) brightness(110%) saturate(130%);
+  filter: contrast(110%) brightness(110%) saturate(130%);
+}
+
+     
+
+
+    .my_filter:hover{
+
+      animation: 1s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	      contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+  filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+	       }
+
+     }
+
+	</style>
+</head>
+<body>
+	<div class="page">
+
+<img class="my_filter" src="img/ocean.jpg" alt="Ocean">
+	
+</div>
+</body>
+</html>
