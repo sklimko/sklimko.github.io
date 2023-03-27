@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:#FFF;
+   	}
+
+   	.cardholder{
+        text-align: center;
+   	}
+      
+    .card{
+    	position:relative;
+       background-color:lightblue;
+       display: inline-block;
+    }
+
+    .card img{
+      width:80%;
+      height:80%;
+		padding-top: 15px;
+ 	 	-webkit-filter:blur:(100px);
+		filter: blur(100px);
+		transition-duration: 2s;
+		transition-timing-function: ease;	
+    }
+ 
+    .card:hover img{
+		-webkit-filter: blur:(0px)contrast(110%) brightness(110%) saturate(130%);
+		filter: blur(0px)contrast(110%) brightness(110%) saturate(130%);
+    }
+    
+   </style>
+
+</head>
+<body>
+
+
+	<div class="cardholder">
+		<div class="card">
+       	  <img class="my_filter" src="img/puppies.jpg" alt="Puppies">
+       </div>
+	</div>
+
+</body>
+</html>
